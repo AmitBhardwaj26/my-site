@@ -1,0 +1,120 @@
+body
+{
+  color: #40514E;
+
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.first
+ {
+  background-color: #E4F9F5;
+  padding-top: 7%;
+}
+
+.firstcloud {
+  position: relative;
+  left: 21%;
+}
+
+.secondcloud {
+  position: relative;
+  left: 3%;
+  padding-bottom: 25%;
+}
+
+.mountain {
+  position: relative;
+}
+
+.one {
+  padding-top: 11%;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  line-height: 1;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  margin-bottom: 0rem;
+}
+
+/*  16px =1 em; =100%   use rem relative to root all root size will be ignored*/
+h2 {
+  color: #66BFBF;
+  margin-top: 0rem;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+}
+
+a {
+ text-decoration: none;
+  color: #11999E;
+  margin: 10px 20px;
+}
+a:hover { color:white;}
+
+.profile { padding-bottom: 3%;}
+.skills { padding-top:3%; }
+
+
+.second {
+  position: absolute;
+  left: 27%;
+}
+
+
+.skill-row { width: 40%; line-height: 1.8; margin: 100px auto 100px auto; text-align: left; }
+.hackerrank { width: 34%; height: 178px; margin-top: 9%; float:left; margin-right: 49px; }
+.hackercode2 { margin-left: 0px; color:#414a4f}
+.hackercode2:hover { color: #66BFBF;}
+.codechef {  width: 34%; height: 178px; margin-top: 9%; float:right; margin-left: 49px;}
+.codeforces {  width: 34%; height: 178px; margin-top: 9%; float:left; margin-right: 49px;}
+.leetcode {  width: 34%; height: 178px; margin-top: 9%; float:right; margin-left:  49px;}
+
+.contact-me { margin-top: 3%; margin-bottom: 7%;}
+.contact-me-text { margin-bottom: 4%;}
+
+hr { border: dotted 8px; border-bottom: none; color: #EAF6F6;  width: 50px;}
+.bottom-container {  background-color: #66BFBF;  height: 5rem; padding-top: 15px;margin-top: 20px;
+}
+
+.btn {margin-top: 10px;}
+.btn {
+  margin-top: 5%;
+
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #119999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #119999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #119999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #119999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #119999E);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: #f6f0fa;
+  font-size: 17px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.copyright { font-size:0.75rem; color:  #EAF6F6;}
